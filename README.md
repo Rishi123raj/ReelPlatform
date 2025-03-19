@@ -1,6 +1,6 @@
 # ImageKit Video Shop
 
-A modern Next.js application for managing and selling video content using ImageKit integration. This project provides a full-featured platform with user authentication, video upload capabilities, and payment processing using Razorpay.
+A modern Next.js application for managing and selling video content using ImageKit integration. This project provides a full-featured platform with user authentication, video upload capabilities.
 
 ## Features
 
@@ -9,8 +9,6 @@ A modern Next.js application for managing and selling video content using ImageK
 - 💳 Payment Processing (Razorpay)
 - 🎨 Modern UI with Tailwind CSS and DaisyUI
 - 📱 Fully Responsive Design
-- 🔒 Secure API Routes
-- 📧 Email Notifications (Nodemailer)
 - 🗄️ MongoDB Database Integration
 
 ## Tech Stack
@@ -20,8 +18,6 @@ A modern Next.js application for managing and selling video content using ImageK
 - **Authentication**: NextAuth.js, JWT
 - **Database**: MongoDB with Mongoose
 - **File Storage**: ImageKit
-- **Payment**: Razorpay
-- **Email**: Nodemailer
 - **Form Handling**: React Hook Form
 
 ## Prerequisites
@@ -29,8 +25,7 @@ A modern Next.js application for managing and selling video content using ImageK
 - Node.js (Latest LTS version)
 - MongoDB Database
 - ImageKit Account
-- Razorpay Account
-- SMTP Server (for email notifications)
+
 
 ## Getting Started
 
@@ -73,16 +68,7 @@ IMAGEKIT_PUBLIC_KEY=
 IMAGEKIT_PRIVATE_KEY=
 IMAGEKIT_URL_ENDPOINT=
 
-# Razorpay
-RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
 
-# Email (SMTP)
-SMTP_HOST=
-SMTP_PORT=
-SMTP_USER=
-SMTP_PASS=
-```
 
 ## Available Scripts
 
